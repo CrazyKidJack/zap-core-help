@@ -78,9 +78,8 @@ throughout the application.
 for the Context.</p>
 
 <H2><a name="custompages">Custom Page</a></H2>
-This functionality allows you to handle situations in which the target does not return a RFC compliant or expected error response when for conditions such as 
-404 - Not Found, 500 - Internal Server Error, etc. Often developers implement custom 404 or 500 handling but do not actually return an appropriate status code.
-Leveraging Custom Page definitions you can define URLs or response content which identify error responses regardless of the status code associated with the response.
+This functionality allows you to handle situations in which the target does not return a RFC compliant or expected error response. Custom Page definitions allow you to use normal or regex matching to define custom URL or response content that identifies different types of pages.<br/>
+For example, developers often implement custom 404 or 500 handling pages but do not return an appropriate status code with those pages. Custom Page definitions can identify these pages correctly regardless of the status code associated with the responses.
 <small>Read <a href="../../../start/features/custompages.html">more</a>...</small>
 
 <H2>URL regexs</H2>
